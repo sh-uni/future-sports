@@ -6,7 +6,7 @@ const Navigation = () => {
   const navItems = [
     { id: 1, title: "News", name: "LatestNews" },
     { id: 2, title: "Events", name: "UpcomingEvents" },
-    { id: 3, title: "Gallery", name: "Gallery" },
+    { id: 3, title: "Gallery", name: "Carousel" },
     { id: 4, title: "Social", name: "Social" },
   ];
 

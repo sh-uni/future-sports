@@ -9,9 +9,9 @@ const SocialLinks = () => {
       
       <h4 style={{marginLeft: "10px"}}>Quadball Australia</h4>
       <div>
-        <a href="https://www.facebook.com/quadballaustralia/" class="fa fa-facebook"></a>
-        <a href="https://www.youtube.com/@QuadballAustralia/" class="fa fa-youtube-play"></a>
-        <a href="https://www.instagram.com/quadballaustralia/" class="fa fa-instagram"></a>
+        <a href="https://www.facebook.com/quadballaustralia/" className="fa fa-facebook"></a>
+        <a href="https://www.youtube.com/@QuadballAustralia/" className="fa fa-youtube-play"></a>
+        <a href="https://www.instagram.com/quadballaustralia/" className="fa fa-instagram"></a>
       </div>
     </div>
   );
