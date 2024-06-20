@@ -1,0 +1,28 @@
+.SocialLinks > div > a {
+    background: #454545
+}
+
+.fa {
+    padding: 5px;
+    font-size: 16px;
+    width: 18px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-youtube-play {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}

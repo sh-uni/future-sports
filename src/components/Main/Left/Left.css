@@ -1,0 +1,7 @@
+.Left {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    
+    background-color: #F7F7F7;
+}

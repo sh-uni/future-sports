@@ -1,0 +1,7 @@
+.LatestNews {
+    padding: 25px;
+    font-size: 20px;
+}
+.LatestNews > p {
+    margin-top: 20px;
+}

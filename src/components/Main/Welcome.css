@@ -1,0 +1,15 @@
+.Welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 300px;
+
+    background-image: linear-gradient(white, #F6F5F4);
+}
+
+.Welcome > p {
+    width:40%; 
+    text-align:center; 
+    font-size:24px;
+}

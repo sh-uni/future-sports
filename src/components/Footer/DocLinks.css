@@ -1,0 +1,16 @@
+.DocLinks {
+    font-size: 16px;
+}
+
+.DocLinks > div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.DocLinks > div > a {
+    color: #454545; 
+    text-decoration: none; 
+    margin-left: 20px;
+}
