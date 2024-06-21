@@ -10,7 +10,7 @@ export default function Header() {
       <Logo />
       <div id="RHS">
         <Navigation />
-        {/*<Search />*/}
+        <Search />
       </div>
     </div>
   );

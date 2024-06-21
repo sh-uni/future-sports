@@ -8,7 +8,7 @@ const Welcome = () => {
   <div>
     <div className="Welcome">
       <h1>Welcome</h1>
-      <p>We&apos;re proud to introduce you to Quadball Australia, home of the Australian Dropbears</p>  
+      <p id="WelcomeText">We&apos;re proud to introduce you to Quadball Australia, home of the Australian Dropbears</p>  
       <button>Meet the Teams</button>
     </div>
     <div>
