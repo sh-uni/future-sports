@@ -3,6 +3,7 @@ import './Header.css';
 import Logo from "./Logo";
 import Navigation from "./Navigation";
 import Search from "./Search";
+import ContactUs from "./ContactUs";
 
 export default function Header() {
   return (
@@ -11,6 +12,7 @@ export default function Header() {
       <div id="RHS">
         <Navigation />
         <Search />
+        <ContactUs />
       </div>
     </div>
   );
