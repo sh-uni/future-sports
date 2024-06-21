@@ -3,15 +3,7 @@ import './App.css';
 import Header from "./components/Header/Header";
 import Main from "./components/Main/Main";
 import Footer from "./components/Footer/Footer";
-//import ErrorBoundary from "./components/Error_boundaries/Error_boundaries.js";
-
-/*        <React.StrictMode>
-          <ErrorBoundary>
-            <Header />
-          </ErrorBoundary>  
-        </React.StrictMode>
-        */
-
+import ErrorBoundary from "./components/Error_boundaries/Error_boundaries.js";
 
 function App() {
     return (
@@ -19,7 +11,11 @@ function App() {
         <div>
           <Header />
           <Main />
-          <Footer />
+          <React.StrictMode>
+            <ErrorBoundary>
+              <Footer />
+            </ErrorBoundary>  
+          </React.StrictMode>
         </div>
       </div>
     );

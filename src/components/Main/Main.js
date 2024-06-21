@@ -7,6 +7,7 @@ import PhotoGallery from "./PhotoGallery";
 import Video from "./Video";
 import Left from "./Left/Left";
 import Aside from "./Aside/Aside";
+import ErrorBoundary from "../Error_boundaries/Error_boundaries.js";
 
 const Main = () => {
   return (
@@ -18,7 +19,11 @@ const Main = () => {
         <Video />
       </div>
       <div className="Content">
-        <Left />
+        <React.StrictMode>
+          <ErrorBoundary>
+            <Left />
+          </ErrorBoundary>  
+        </React.StrictMode>
         <Aside />
       </div>
     </div>
